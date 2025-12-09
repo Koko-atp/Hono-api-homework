@@ -1,0 +1,68 @@
+######### rounts api
+
+### User
+get http://localhost:3000/api/user/page/welcome
+###
+post http://localhost:3000/api/user/createuser
+Content-Type: application/json
+
+{
+    "name" : "kon0",
+    "email" : "kkkkkkk@gmail.com",
+    "steam" : "12222"
+}
+
+### Roles
+post http://localhost:3000/api/roles/api/products
+
+{
+    "productName" : "a phone maybe" 
+}
+
+### products
+post http://localhost:3000/api/products/createproduct
+Content-Type: application/json
+
+{
+    "proID" : 452322,
+    "proname" : "a train",
+    "sellprice" : 2300.341,
+    "productprice" : 1600.5,
+    "Pdescription" : "something that can carry many human"
+}
+###
+get http://localhost:3000/api/user/get_user/20
+###
+DELETE  http://localhost:3000/api/user/delete_user/20
+###
+post http://localhost:3000/api/user/postuser
+Content-Type: application/json
+
+{
+    "username" : "DB43",
+   "password" : "ddwwa321",
+    "firstname" : "davidboby",
+    "lastname" : "howskwia"
+}
+
+###
+post http://localhost:3000/api/user/user_update/21
+Content-Type: application/json
+
+{
+    "username" : "Kevin",
+    "password" : "823710292"
+
+}
+
+
+
+
+
+
+
+
+
+###ESP
+get http://localhost:3000/esp32/api/testget
+
